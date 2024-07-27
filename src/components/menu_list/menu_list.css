@@ -38,7 +38,12 @@
     display: flex;
     margin-left: 4rem;
     gap: 2rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
+ .menu_explorelist::-webkit-scrollbar{
+    display: none;
+ }
 .menu_list_item img{
     width: 80%;
 }
@@ -53,4 +58,13 @@
     padding: 2px;
     border-radius: 100%;
     border: 4px solid #c21128;
+}
+
+@media screen and (max-width:600px) {
+    .menu_explore_list{
+        margin-left: 1rem;
+    }
+    .menu_explorelist{
+        margin-left: 0;
+    }
 }

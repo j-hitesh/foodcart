@@ -31,6 +31,7 @@ const Footer = () => {
           </div>
           <p>Receive exclusive offers in your mailbox</p>
         </div>
+        <hr />
       </div>
       <div className="footer_last">
         <p>All rights reserved © FoodCart</p>

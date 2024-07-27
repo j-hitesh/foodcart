@@ -11,8 +11,7 @@
     display: flex;
     justify-content: space-between;
     color: #fff;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 2rem;
+    /* border-bottom: 2px solid #fff; */
 }
 
 .footer_ul{
@@ -44,5 +43,18 @@
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin-top: 4rem;
+}
+hr{
+    margin: 2rem 0;
+}
+@media screen and (max-width:600px) {
+    .footer{
+        padding: 2rem 1rem;
+    }
+    .main_cont_footer{
+        display: block;
+    }
+    .left_footer, .center_footer, .right_footer{
+        padding: 1rem 0;
+    }
 }

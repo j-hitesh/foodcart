@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
 .navbar{
     margin-right: 1rem;
+    margin-left: 1rem;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
@@ -46,20 +47,13 @@
 @media screen and (max-width: 600px){
     .navbar{
         max-width: 200px;
-        height: fit-content;
+        height: fit-content;  
+        margin-right: 0;
     }
     .logo{
-        width: 40%;
+        width: 30%;
     }
-    /* .left_menu{
-        flex-direction: column;
-        margin: 0;
-    } */
     .right_menu button{
-        font-size: 10px;
-        width: 60px;
-        height: 30px;
-        padding: auto;
-        
+        display: none;
     }
 }

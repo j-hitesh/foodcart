@@ -54,12 +54,13 @@
 @media screen and (max-width:600px) {
     .header{
         max-width: 300px;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     .main_cont{
         flex-direction: column-reverse;
         width: auto;
         margin-top: 1rem;
+    
     }
     .left_container{
         margin-left: 1rem;
